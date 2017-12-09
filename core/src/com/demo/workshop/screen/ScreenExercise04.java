@@ -20,9 +20,9 @@ public class ScreenExercise04 extends AbstractScreen {
 
     public ScreenExercise04() {
 
-        backgroundTexture = new Texture(Gdx.files.internal("img/background_low_poly.png"));
+        backgroundTexture = new Texture(Gdx.files.internal("img/background/low_poly_01.png"));
 
-        androidTexture = new Texture(Gdx.files.internal("img/characters/Android_Robot_100.png"));
+        androidTexture = new Texture(Gdx.files.internal("img/characters/ardilla__01_256.png"));
         androidTexture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
 
         androidSprite = new GameObject(androidTexture);
