@@ -29,29 +29,14 @@ public class Button extends Sprite {
 
         switch(type) {
 
-            case OK:
-                texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_OK));
-                break;
-            case CANCEL:
-                texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_CANCEL));
-                break;
             case START:
                 texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_START));
-                break;
-            case RESTART:
-                texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_RESTART));
                 break;
             case PAUSE:
                 texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_PAUSE));
                 break;
             case BACK:
                 texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_BACK));
-                break;
-            case MOVE_LEFT:
-                texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_BACK));
-                break;
-            case MOVE_RIGHT:
-                texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_START));
                 break;
             case NONE:
                 texture = new Texture(Gdx.files.internal(com.demo.workshop.utils.Constants.BUTTON_NONE));

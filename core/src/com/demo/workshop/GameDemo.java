@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.demo.workshop.screen.ScreenExercise00;
+import com.demo.workshop.screen.ScreenExercise05;
 
 import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenManager;
@@ -33,7 +34,7 @@ public class GameDemo extends Game {
 
 		Tween.registerAccessor(Sprite.class, new com.demo.workshop.utils.SpriteAccessor());
 
-		this.setScreen(new ScreenExercise00());
+		this.setScreen(new ScreenExercise05());
 
 	}
 

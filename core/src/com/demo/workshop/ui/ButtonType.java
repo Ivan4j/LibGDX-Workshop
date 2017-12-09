@@ -5,5 +5,5 @@ package com.demo.workshop.ui;
  */
 
 public enum ButtonType {
-    OK, CANCEL, START, RESTART, PAUSE, BACK, NONE, MOVE_LEFT, MOVE_RIGHT
+    START, PAUSE, BACK, NONE
 }
