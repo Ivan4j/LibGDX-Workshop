@@ -131,7 +131,7 @@ public class GameController implements InputProcessor {
         component.setScale(1);
 
         Tween.to(component, com.demo.workshop.utils.SpriteAccessor.SCALE_XY, 0.15f)
-                .target(1.15f, 1.15f)
+                .target(1.05f, 1.05f)
                 .ease(Back.INOUT)
                 .start(GameDemo.getTweenManager());
 
